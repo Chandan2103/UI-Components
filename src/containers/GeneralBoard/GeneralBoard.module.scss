@@ -1,0 +1,210 @@
+@import "../../assets/sass/main";
+
+
+.tabsWrapper {
+  background-color: $dash1;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  width: fit-content;
+  .tabsCatagory {
+    display: flex;
+
+    gap: 6px;
+
+    .tabsItem {
+      padding: 0.4rem 1.5rem;
+      background-color: $dash1;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 4px;
+      &:hover {
+        color: $purple;
+        background-color: $white;
+      }
+    }
+  }
+}
+.data1 {
+  background-color: #f0f1f3;
+  border-radius: 10px;
+  padding: 1rem;
+
+  .dataTitle {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .dataInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+    .dataNumInfo {
+      font-size: 38px;
+      font-weight: bold;
+    }
+    .dataPLInfo {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+
+      .wrap {
+        display: flex;
+        background-color: #f6d6d4;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        padding: 4px 8px;
+        .dataPLIcon {
+          font-size: 11px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #aa4d4a;
+        }
+        .dataPLnum {
+          font-size: 11px;
+          color: #aa4d4a;
+        }
+      }
+    }
+  }
+  .dataFooter {
+  }
+}
+
+.deliveryTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.deliveryGraph {
+  padding: 0 1.5rem;
+  border-bottom: 1px solid $line;
+  border-right: 1px solid $line;
+  .dgTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    height: 42px;
+  }
+  .dgRate {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .dgInfo {
+    margin-bottom: 1rem;
+  }
+  .dgPlot {
+  }
+}
+.deliveryGraph1 {
+  padding: 0 1.5rem;
+  border-bottom: 1px solid $line;
+
+  .dgTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  
+    height: 42px;
+  }
+  .dgRate {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .dgInfo {
+    margin-bottom: 1rem;
+  }
+  .dgPlot {
+  }
+}
+.emailData {
+  .edTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .edDatakey {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 2rem;
+    .edDatakey1 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .edDatakeyCircle1 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $purple;
+      }
+      .edDatakeyTitle {
+        color: $grey;
+        font-size: 12px;
+      }
+    }
+    .edDatakey2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .edDatakeyCircle2 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $blue;
+      }
+      .edDatakeyTitle {
+        color: $grey;
+        font-size: 12px;
+      }
+    }
+  }
+}
+.performanceData {
+  padding-left: 1.3rem;
+
+  .pdTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .edDatakey {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 2rem;
+    .edDatakey1 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .edDatakeyCircle1 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $purple;
+      }
+      .edDatakeyTitle {
+        color: $grey;
+        font-size: 12px;
+      }
+    }
+    .edDatakey2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .edDatakeyCircle2 {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $blue;
+      }
+      .edDatakeyTitle {
+        color: $grey;
+        font-size: 12px;
+      }
+    }
+  }
+}

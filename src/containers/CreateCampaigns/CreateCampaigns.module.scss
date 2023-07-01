@@ -1,0 +1,113 @@
+@import "../../assets/sass/main";
+
+.wrapper {
+  .title {
+    height: 3rem;
+    padding: 1rem;
+    width: 40%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $dash1;
+    margin-bottom: 2rem;
+    color:#8893AA ;
+    &::placeholder {
+      font-size: 1rem;
+      color: $lightGrey;
+    }
+  }
+  .detailsInfoWrap {
+    display: flex;
+    gap: 2rem;
+    .detailsWrap {
+      width: 50%;
+
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 6px;
+      .container {
+        padding: 1rem 0;
+        .fromWrap {
+          padding: 1rem 1rem;
+
+          .fromWrapLeft {
+            .checkIcon {
+              color: #1976d2;
+              display: flex;
+              gap: 10px;
+              align-items: center;
+            }
+            .fromInput {
+              border: none;
+              border-bottom: 1px solid $dash1;
+              outline: none;
+              margin-left: 2rem;
+              font-size: 1rem;
+              padding-top: 10px;
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+    .templatePreview {
+      width: 50%;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 6px;
+      .templateImage {
+        width: auto;
+      }
+    }
+  }
+  .buttonWrap{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    .button1{
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      background-color: $lightGrey;
+      color: black;
+      border: none;
+      
+      &:hover {
+        background-color: $grey;
+        color: $white;
+      }
+    }
+    .button2{
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      background-color: #1976d2;
+      color: $white;
+      border: none;
+      
+      &:hover {
+        background-color: #3b87d4;
+      }
+    }
+  }
+}
+
+.modalWrap{
+  width: 30vw;
+  .details{
+    padding: 1rem;
+    .head{
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .data{
+font-size: 1rem;
+    }
+  }
+}

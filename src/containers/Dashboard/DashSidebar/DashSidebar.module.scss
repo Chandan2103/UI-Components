@@ -1,0 +1,88 @@
+@import "../../../assets//sass//main";
+
+.sidebar {
+  height: 100%;
+  background-color: #f3f6fa;
+  display: flex;
+  
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 20px;
+
+    
+    .wrapperTop{
+      .brand {
+        padding: 16px 16px;
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    
+        .brandTitle {
+          font-weight: bold;
+          font-size: 22px;
+        }
+      }
+    
+      .searchInput {
+        margin: 16px 16px;
+        display: flex;
+        background-color: $white;
+        border-radius: 4px;
+        .searchIcon {
+          padding: 6px 10px;
+          color: $lightGrey;
+          display: flex;
+          align-items: center;
+        }
+        .inputBox {
+          background-color: $white;
+          outline: none;
+          width: auto;
+          border: none;
+          font-size: 16px;
+        }
+      }
+      .sidebarMenu {
+        .submenu {
+          background-color: $dash1;
+          padding: 4px 4px 4px 6px;
+    
+          .subitem {
+            &:hover {
+              color: #7f54e0;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+
+    }
+    .profileContainer {
+     padding: 16px 16px;
+     border-top: 1px solid rgb(235, 231, 231);
+      display: flex;
+      align-items: center;
+        gap: 22px;
+      
+        .avatar {
+        }
+        .data {
+          font-size: 14px;
+          .name {
+            font-weight: bold;
+          }
+          .email {
+          }
+        }
+      }
+    }
+  }
+ 
+  
+
+  
+

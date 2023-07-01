@@ -1,0 +1,23 @@
+@import "../../../assets//sass//main";
+
+.wrapper {
+  width: -webkit-fill-available;
+  height: 95vh;
+
+  .dataBoardWrapper {
+    height: 90%;
+    overflow-y: scroll;
+  
+    padding: 0 1.5rem;
+    &::-webkit-scrollbar {
+      width: 0px;
+      background-color: #f5f5f5;
+    }
+
+  
+  }
+
+  .numData {
+    width: 100%;
+  }
+}

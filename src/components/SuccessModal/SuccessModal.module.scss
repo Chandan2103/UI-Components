@@ -1,0 +1,63 @@
+@import "../../assets/sass/main";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modalContainer {
+      box-shadow: $boxShadow1;
+      display: flex;
+      min-width: 35vw;
+      min-height: 40vh;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      transition-duration: 0.3s;
+      background: $whiteSmoke;
+
+      .modalLeft {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem;
+        background: $white;
+        flex: 1.5;
+        transition-duration: 0.5s;
+        opacity: 1;
+
+        .modalTitle {
+          margin-bottom: 30px;
+          font-weight: 400;
+          color: $black;
+          text-align: center;
+        }
+        .modalDesc {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 80px;
+          color: $grey;
+        }
+      }
+      .modalRight {
+        flex: 2;
+        font-size: 0;
+        transition: 0.3s;
+        overflow: hidden;
+        .signupImage {
+          width: 100%;
+          height: 100%;
+          transform: scale(1);
+          -o-object-fit: cover;
+          object-fit: cover;
+          transition-duration: 1.2s;
+        }
+      }
+    }
+  }
+}

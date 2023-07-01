@@ -1,0 +1,30 @@
+@import "../../../assets//sass//main";
+
+.topbarWrapper {
+position: sticky;
+  margin-bottom: 1.5rem;
+  background-color: $white;
+  border-bottom: 1px solid $line;
+  width: -webkit-fill-available;
+
+  .container {
+    padding: 1rem 1.5rem;
+
+    .dashTitle {
+      display: flex;
+      align-items: center;
+     
+      .collapse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+      
+      }
+      .title {
+        font-size: 18px;
+      }
+    }
+    
+  }
+}

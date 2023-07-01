@@ -1,0 +1,155 @@
+@import "../../assets/sass/main";
+
+.campaignsWrapper {
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    .topbarLeft {
+      .tabWrapper {
+        background-color: $dash1;
+        border-radius: 8px;
+        padding: 4px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        .tabItem {
+          padding: 0.4rem 1.5rem;
+          background-color: $dash1;
+          border-radius: 8px;
+          font-weight: bold;
+
+          color: $purple;
+        }
+      }
+    }
+    .topbarRight {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background-color: $purple;
+      color: $white;
+      border: none;
+      font-size: 16px;
+      &:hover {
+        background-color: $lightpurple;
+      }
+    }
+  }
+  .tableWrapper {
+    .tableHeader {
+      border: 1px solid $line;
+      border-radius: 6px;
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      .headerLeft {
+        display: flex;
+        gap: 2rem;
+        font-size: 14px;
+        font-weight: bold;
+        color: $grey;
+        .headerCheckbox{
+          width: 22px;
+        }
+      }
+      .headerRight {
+        display: flex;
+
+        border-radius: 4px;
+
+        .searchIcon {
+          padding: 6px 10px;
+          color: $lightGrey;
+          display: flex;
+          align-items: center;
+        }
+        .inputBox {
+          background-color: $white;
+          outline: none;
+          width: fit-content;
+          border: none;
+          font-size: 16px;
+        }
+      }
+    }
+    .tableItem {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 6px;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      &:hover{
+        background-color: $dash1;
+      }
+      .left {
+        display: flex;
+        .tableLeft {
+          display: flex;
+          gap: 2rem;
+          .checkbox {
+            width: 22px;
+          }
+          .imageContainer {
+            border: 1px solid $line;
+            height: 100%;
+            border-radius: 6px;
+            overflow: hidden;
+
+            .cardImage {
+              object-fit: cover;
+              padding: 0.5rem;
+              height: 80px;
+              width: 100px;
+            }
+          }
+        }
+        .tableCenter {
+          display: flex;
+          padding: 1rem 1rem;
+          .titleWrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 2rem;
+            .title {
+              font-size: 18px;
+              font-weight: bold;
+            }
+            .subTitle {
+              font-size: 14px;
+            }
+          }
+          .recipientWrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 2rem;
+
+            .recipientData {
+              font-size: 18px;
+              font-weight: bold;
+            }
+            .recipientTitle {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .tableRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        color: $lightGrey;
+      }
+    }
+  }
+}

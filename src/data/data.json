@@ -1,0 +1,404 @@
+{
+  "tableData": [
+    [
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 356.56,
+        "change": -2.34,
+        "percent_change": -0.65,
+        "volume": 1234567,
+        "last_traded_qty": 500,
+        "lower_circuit": 320.0,
+        "upper_circuit": 380.0,
+        "buy": [
+          {
+            "price": 356.55,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 356.57,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 356.52,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 356.49,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 356.6,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 356.58,
+            "quantity": 100,
+            "orders": 2
+          },
+          {
+            "price": 356.6,
+            "quantity": 50,
+            "orders": 3
+          },
+          {
+            "price": 356.63,
+            "quantity": 75,
+            "orders": 2
+          },
+          {
+            "price": 356.59,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 356.65,
+            "quantity": 150,
+            "orders": 4
+          }
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 652.54,
+        "change": 8.92,
+        "percent_change": 1.39,
+        "volume": 765432,
+        "last_traded_qty": 300,
+        "lower_circuit": 600.0,
+        "upper_circuit": 700.0,
+        "buy": [
+          {
+            "price": 652.52,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 652.55,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 652.51,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 652.47,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 652.58,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 652.6,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 652.62,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 652.55,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 652.58,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 652.65,
+            "quantity": 150,
+            "orders": 3
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": 1578.23,
+        "change": 5.67,
+        "percent_change": 0.36,
+        "volume": 987654,
+        "last_traded_qty": 1000,
+        "lower_circuit": 1500.0,
+        "upper_circuit": 1800.0,
+        "buy": [
+          {
+            "price": 1578.2,
+            "quantity": 100,
+            "orders": 2
+          },
+          {
+            "price": 1578.25,
+            "quantity": 50,
+            "orders": 3
+          },
+          {
+            "price": 1578.22,
+            "quantity": 75,
+            "orders": 1
+          },
+          {
+            "price": 1578.18,
+            "quantity": 25,
+            "orders": 4
+          },
+          {
+            "price": 1578.15,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 1578.27,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 1578.3,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 1578.22,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 1578.25,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 1578.28,
+            "quantity": 150,
+            "orders": 3
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 245.78,
+        "change": 1.56,
+        "percent_change": 0.64,
+        "volume": 2345678,
+        "last_traded_qty": 750,
+        "lower_circuit": 200.0,
+        "upper_circuit": 260.0,
+        "buy": [
+          {
+            "price": 245.77,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 245.79,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 245.76,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 245.82,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 245.8,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 245.8,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 245.82,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 245.84,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 245.78,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 245.85,
+            "quantity": 150,
+            "orders": 3
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": 3298.2,
+        "change": -12.56,
+        "percent_change": -0.38,
+        "volume": 876543,
+        "last_traded_qty": 200,
+        "lower_circuit": 3100.0,
+        "upper_circuit": 3500.0,
+        "buy": [
+          {
+            "price": 3298.18,
+            "quantity": 100,
+            "orders": 2
+          },
+          {
+            "price": 3298.22,
+            "quantity": 50,
+            "orders": 3
+          },
+          {
+            "price": 3298.2,
+            "quantity": 75,
+            "orders": 1
+          },
+          {
+            "price": 3298.15,
+            "quantity": 25,
+            "orders": 4
+          },
+          {
+            "price": 3298.25,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 3298.28,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 3298.3,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 3298.26,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 3298.23,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 3298.32,
+            "quantity": 150,
+            "orders": 3
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 652.54,
+        "change": 8.92,
+        "percent_change": 1.39,
+        "volume": 765432,
+        "last_traded_qty": 300,
+        "lower_circuit": 600.0,
+        "upper_circuit": 700.0,
+        "buy": [
+          {
+            "price": 652.52,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 652.55,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 652.51,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 652.47,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 652.58,
+            "quantity": 150,
+            "orders": 2
+          }
+        ],
+        "sell": [
+          {
+            "price": 652.6,
+            "quantity": 100,
+            "orders": 3
+          },
+          {
+            "price": 652.62,
+            "quantity": 50,
+            "orders": 2
+          },
+          {
+            "price": 652.55,
+            "quantity": 75,
+            "orders": 4
+          },
+          {
+            "price": 652.58,
+            "quantity": 25,
+            "orders": 1
+          },
+          {
+            "price": 652.65,
+            "quantity": 150,
+            "orders": 3
+          }
+        ]
+      }
+    ]
+  ]
+}
